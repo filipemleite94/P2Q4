@@ -31,7 +31,7 @@ public class SecureClass {
     }
     while (iter++ < max) {
       Scanner console = new Scanner(System.in);
-      System.out.print("Digite a operacao desejada para realizar no arquivo");
+      System.out.print("Digite a operacao desejada para realizar no arquivo ");
       System.out.println("<R para ler um arquivo, " + "W para escrever em um arquivo>? ");
 
       String opr;
